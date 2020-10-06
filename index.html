@@ -77,8 +77,10 @@
 					</header>
 					<p>Our group uses N-body (<A HREF="http://wwwmpa.mpa-garching.mpg.de/gadget/" target='_blank'>gadget-2</A>) ray-tracing (<a href="http://lenstools.readthedocs.io/" target="_blank">LensTools</a>) simulations to study the <a href='https://en.wikipedia.org/wiki/Weak_gravitational_lensing' target='_blank'>weak gravitational lensing</a> signature of <a href='https://en.wikipedia.org/wiki/Observable_universe#Large-scale_structure' target='_blank'>large scale structure</a> and to understand fundamental physics such as the nature of <a href='https://en.wikipedia.org/wiki/Dark_energy' target='_blank'>dark energy</a> and the <a href='https://en.wikipedia.org/wiki/Neutrino#Mass' target='_blank'>
 					total mass of neutrinos</a>. In particular, we try to capture the rich information that is beyond the traditional two-point statistics, using non-Gaussian statistics, such as peak counts, Minkowski Functionals, and higher order moments.
-					<br><br>
+					<br>
 					<!--<strong>CONTRIBUTORS</strong><br>-->
+<p><strong>PUBLICATIONS:  <A HREF="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?library&libname=columbialensing&libid=4f147fbced" target='_blank'> ADS </A></strong></p>
+
 Active contributors:<br>
 <table ><!--style="width:700"-->
 <tr>
@@ -110,17 +112,16 @@ Active contributors:<br>
 Past contributors: <br>
 Morgan May, Jan Kratochvil, Xiuyuan Yang<br>
 <br>
-					<p><strong>PUBLICATIONS</strong><br>
 
-<DT>  <A HREF="https://arxiv.org/abs/1802.01212" target='_blank'>
-<EM> Non-Gaussian information from weak lensing data via deep learning </EM> </A>
+
+<!--
 <DD>     A. Gupta, J. M. Zorrilla, D. Hsu & Z. Haiman
-<DD>     Submitted to Physical Review D  (2018)
+<DD>     Accepted to Physical Review D  (2018)
 
 <DT>  <A HREF="https://arxiv.org/abs/1711.10524" target='_blank'>
 <EM> MassiveNuS: Cosmological Massive Neutrino Simulations </EM> </A>
 <DD>     J. Liu, S. Bird, J. M. Zorrilla, J. C. Hill, Z. Haiman, M. Madhavacheril, A. Petri & D. N. Spergel
-<DD>     Submitted to JCAP (2017)
+<DD>     Journal of Cosmology and Astroparticle Physics, Issue 03, article id. 049 (2018)
 
 <DT>  <A HREF="http://arxiv.org/abs/1609.03973" target='_blank'>
 <EM> Do dark matter halos explain lensing peaks? </EM> </A>
@@ -217,7 +218,7 @@ Constraining multiplicative bias in CFHTLenS weak lensing shear data</EM> </A>
 <DT> <A HREF="http://www.iop.org/EJ/abstract/0004-637X/691/1/547" target='_blank'> 
 <EM> Constraining Cosmology with High Convergence Regions in Weak Lensing Surveys </EM> </A>
 <DD>     S. Wang, Z. Haiman & M. May
-<DD>     The Astrophysical Journal, vol. 691, pp. 547-559 (2009)
+<DD>     The Astrophysical Journal, vol. 691, pp. 547-559 (2009)-->
 
 				</div>
 			</section>	
@@ -257,24 +258,16 @@ Size: 16GB/model. <br>
 Code: <A HREF="https://bitbucket.org/gfcstanford/rockstar"  target='_blank'>rockstar</A><br>
 
 <b>(3)</b> Merger trees:<br>
-For each of the 101 models.  <br>
+For the two fiducial models.  <br>
 Format: ascii (recommend analysis tool: <A HREF="https://halotools.readthedocs.io/en/latest/"  target='_blank'>Halotools</A>)<br>
 Size: 18GB/model. Code: <A HREF="https://bitbucket.org/pbehroozi/consistent-trees"  target='_blank'>consistent tree</A><br>
 
-<b>(4)</b> Galaxy convergence maps for four galaxy:<br>
-1000 realizations for each of the 101 models, for 5 source redshifts.  <br>
-Source redshifts z_s= 1, 1.5, 2, 2.5. <br>
-Map size: 12.25 deg^2, 2048^2 pixels, 0.1 arcmin resolution.<br>
+<b>(4)</b> Convergence maps (galaxy & CMB lensing):<br>
+10,000 realizations for each of the 101 models, for 6 source redshifts.  <br>
+Source redshifts z_s = 0.5, 1, 1.5, 2, 2.5, 1100. <br>
+Map size: 12.25 deg^2, 512^2 pixels, 0.4 arcmin resolution.<br>
 Format: fits. <br>
-Size: 69GB/model (1000 realizations x 5 redshifts). <br>
-Code: <A HREF="http://lenstools.readthedocs.io/"  target='_blank'>LensTools</A><br>
-
-<b>(5)</b> CMB convergence maps:<br>
-1000 realizations for each of the 101 models.  <br>
-Source redshifts z_s= 1100. <br>
-Map size: 12.25 deg^2, 2048^2 pixels, 0.1 arcmin resolution.<br>
-Format: fits.  <br>
-Size: 15GB/model (1000 realizations). <br>
+Size: 59GB/model (10,000 realizations x 6 redshifts). <br>
 Code: <A HREF="http://lenstools.readthedocs.io/"  target='_blank'>LensTools</A><br>
 <br><br>
 <EM>We thank New Mexico State University (USA) and Instituto de Astrofisica de Andalucia CSIC (Spain) for hosting the Skies & Universes site for cosmological simulation products.</EM><br>
@@ -315,22 +308,22 @@ Code: <A HREF="http://lenstools.readthedocs.io/"  target='_blank'>LensTools</A><
 					<br><br>
 					
 					kappa maps:<br>
-					<a href=maps/kappa/Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz download> Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/kappa/Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz download> Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+					<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz download> Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//kappa/Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz download> Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
                     <br>
                     B-mode maps (for null tests):<br>
-                    <a href=maps/omega/Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz download> Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz </a> <br>
-<a href=maps/omega/Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz download> Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+                    <a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz download> Om0.230_Ode0.770_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-0.800_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.200_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa-0.500_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz download> Om0.260_Ode0.740_w-1.200_wa0.000_si0.800.tar.gz </a> <br>
+<a href=http://astronomy.nmsu.edu/aklypin/SUsimulations/MassiveNuS/convergence_maps/darkenergy//omega/Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz download> Om0.290_Ode0.710_w-1.000_wa0.000_si0.800.tar.gz </a> <br>
                     
 				</div>
 			</section>
@@ -343,32 +336,59 @@ Code: <A HREF="http://lenstools.readthedocs.io/"  target='_blank'>LensTools</A><
 						<h2>Dark Matter</h2>
 					</header>
 					<p><strong>DESCRIPTION</strong><br>
-This is a set of simulated convergence maps
-for 96 different cosmologies. Each cosmology differs only on two cosmological parameters,
-the density of matter, Omega_m, and the amplitude of density fluctuations measured in the 
-late universe, sigma_8. Each is saved in a compressed directory. Within
-the directory, there are 512 convergence maps, saved as fits files.
-<br><br>
-This dataset was used for the analyses presented in <A HREF="http://adsabs.harvard.edu/abs/2016PhRvD..94h3506Z" target='_blank'> Matilla et al 2017</a> and <A HREF="http://adsabs.harvard.edu/abs/2018arXiv180201212G" target='_blank'> Arushi et al 2018</a>, where you can find detailed descriptions of the data. These two papers should be cited in a publication that makes use of the maps.
+This is a set of simulated convergence maps
+
+for 96 different cosmologies. Each cosmology differs only on two cosmological parameters,
+
+the density of matter, Omega_m, and the amplitude of density fluctuations measured in the 
+
+late universe, sigma_8. Each is saved in a compressed directory. Within
+
+the directory, there are 512 convergence maps, saved as fits files.
+
+
 <br><br>
-For convenience, here is a brief description:
-<br><br>
-- Each convergence map covers a field of view of 3.5deg x 3.5deg, and has a 
-  resolution of 1024 x 1024 pixels.<br>
-- Maps share the initial random seeds between cosmologies. That is, the map
-  0001 for cosmology a and the same map for cosmology b were generated
-  using the same random seed, and will exhibit similar structures in the
-  same regions.<br>
-- Maps represent noiseless convergence from sources at a constant redshift 
-  z=1.0. <br>
-- Each map was generated ray-tracing the outputs of dark matter-only, N-body
-  simulations, using the multi plane algorithm implemented in <A HREF="http://lenstools.readthedocs.io/en/latest/" target='_blank'>Lenstools</A>. The ray-tracing does not use
-  the Born approximation, but assumes a flat sky.<br>
-- Each past light-cone was built from snapshots from a single N-body simulation
-  for each cosmology. The simulations evolved a 240Mpc/h side cube with 512^3
-  dark matter particles, using GADGET2. The distance between planes corresponds
-  to 80Mpc/h on the fiducial cosmology (Omega_m=0.260, sigma_8=0.800).<br>
-- Initial conditions for the Nbody simulations were built using NGenIC, from
+This dataset was used for the analyses presented in <A HREF="http://adsabs.harvard.edu/abs/2016PhRvD..94h3506Z
+" target='_blank'> Matilla et al 2016</a> and <A HREF="http://adsabs.harvard.edu/abs/2018arXiv180201212G
+" target='_blank'> Gupta et al 2018</a>, where you
+ can find detailed descriptions of the data. These two papers should be cited in a publication that makes use of the maps.
+<br><br>
+For convenience, here is a brief description:
+
+
+<br><br>
+- Each convergence map covers a field of view of 3.5deg x 3.5deg, and has a 
+
+  resolution of 1024 x 1024 pixels.
+<br>
+- Maps share the initial random seeds between cosmologies. That is, the map
+
+  0001 for cosmology a and the same map for cosmology b were generated
+
+  using the same random seed, and will exhibit similar structures in the
+
+  same regions.
+<br>
+- Maps represent noiseless convergence from sources at a constant redshift 
+
+  z=1.0. 
+<br>
+- Each map was generated ray-tracing the outputs of dark matter-only, N-body
+
+  simulations, using the multi plane algorithm implemented in <A HREF="http://lenstools.readthedocs.io/en/latest/" target='_blank'>Lenstools</A>. The ray-tracing does not use
+
+  the Born approximation, but assumes a flat sky.
+<br>
+- Each past light-cone was built from snapshots from a single N-body simulation
+
+  for each cosmology. The simulations evolved a 240Mpc/h side cube with 512^3
+
+  dark matter particles, using GADGET2. The distance between planes corresponds
+
+  to 80Mpc/h on the fiducial cosmology (Omega_m=0.260, sigma_8=0.800).
+<br>
+- Initial conditions for the Nbody simulations were built using NGenIC, from
+
   scaled power spectra computed with CAMB.<br>
   <br>
   Sample data: <A HREF="http://astro.columbia.edu/~zoltan/Om0.260_si0.800.tar.gz" target='_blank'>Download</A><br>
@@ -387,13 +407,16 @@ Om0.251_si0.807:  455 maps<br>
 					</header>
 					<p>When our maps are used in your paper, please:<br><br>
 
-(1) Acknowledge the grant that supported our creation of these maps: NSF grant AST-1210877 and NSF XSEDE allocation AST140041.<br><br>
+(1) Please add the following to the Acknowledgement section of your publication:
+   "We thank the Columbia Lensing group (http://columbialensing.org) for making their suite of simulated maps available, and NSF for supporting the creation of those maps through grant AST-1210877 and XSEDE allocation AST-140041." <br><br>
 
-(2) Cite "Mocking the Weak Lensing universe: the LensTools python computing package" <a href="https://arxiv.org/abs/1606.01903" target="_blank">Petri 2016</a>. The python code LensTools, which we used to create our maps, can be found at: <a href="http://lenstools.readthedocs.io/" target="_blank">lenstools.readthedocs.io</a><br><br>
+(2) Cite "Mocking the Weak Lensing universe: the LensTools python computing package" <a href="http://adsabs.harvard.edu/abs/2016A%26C....17...73P" target="_blank">Petri 2016</a>. The python code LensTools, which we used to create our maps, can be found at: <a href="http://lenstools.readthedocs.io/" target="_blank">lenstools.readthedocs.io</a><br><br>
 
-(3) For the MassiveNuS dataset, please cite <A HREF="http://arxiv.org/abs/1608.03169"  target='_blank'>Liu et al. 2017</A>, and acknowledge the data hosting facility: "We thank New Mexico State University (USA) and Instituto de Astrofisica de Andalucia CSIC (Spain) for hosting the Skies & Universes site for cosmological simulation products."<br><br>
+(3) For the MassiveNuS dataset, please cite <A HREF="http://adsabs.harvard.edu/abs/2018JCAP...03..049L"  target='_blank'>Liu et al. 2018</A>, and add to Acknowledgement (in addition to #1 above): "We thank New Mexico State University (USA) and Instituto de Astrofisica de Andalucia CSIC (Spain) for hosting the Skies & Universes site for cosmological simulation products."<br><br>
 
-(4) For the Dark Matter dataset, please cite <A HREF="http://adsabs.harvard.edu/abs/2016PhRvD..94h3506Z" target='_blank'> Matilla et al 2017</a> and <A HREF="http://adsabs.harvard.edu/abs/2018arXiv180201212G" target='_blank'> Arushi et al 2018</a>.
+(4) For the Dark Matter dataset, please cite <A HREF="http://adsabs.harvard.edu/abs/2016PhRvD..94h3506Z
+" target='_blank'> Matilla et al 2016</a> and <A HREF="http://adsabs.harvard.edu/abs/2018arXiv180201212G
+" target='_blank'> Gupta et al 2018</a>.
 
 </div>
 			</section>
